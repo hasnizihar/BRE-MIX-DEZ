@@ -1,0 +1,28 @@
+{
+  "table_id": "TBL-BRE-002",
+  "title": "Approximate compressive strengths of concrete mixes made with a free-water/cement ratio of 0.5",
+  "source": "SRC-BRE-001",
+  "source_document": "BRE BR 331, Second Edition, 1997",
+  "verification_status": "CROSS-VERIFIED",
+  "units": {
+    "strength": "N/mm²"
+  },
+  "columns": ["cement_class", "aggregate_type", "3_days", "7_days", "28_days", "91_days"],
+  "data": [
+    {"cement_class": "42.5", "aggregate_type": "Uncrushed", "3_days": 22, "7_days": 30, "28_days": 42, "91_days": 49},
+    {"cement_class": "42.5", "aggregate_type": "Crushed",   "3_days": 27, "7_days": 36, "28_days": 49, "91_days": 56},
+    {"cement_class": "52.5", "aggregate_type": "Uncrushed", "3_days": 29, "7_days": 37, "28_days": 48, "91_days": 54},
+    {"cement_class": "52.5", "aggregate_type": "Crushed",   "3_days": 34, "7_days": 43, "28_days": 55, "91_days": 61}
+  ],
+  "interpolation": {
+    "between_ages": "Linear interpolation permitted",
+    "between_cement_classes": "Not applicable — discrete values",
+    "between_aggregate_types": "Not applicable — discrete values"
+  },
+  "valid_ranges": {
+    "cement_class": ["42.5", "52.5"],
+    "aggregate_type": ["Crushed", "Uncrushed"],
+    "age_days": [3, 7, 28, 91]
+  },
+  "notes": "Values represent reference strengths at a fixed w/c of 0.5. Used as entry point to Figure 4 for w/c ratio determination."
+}

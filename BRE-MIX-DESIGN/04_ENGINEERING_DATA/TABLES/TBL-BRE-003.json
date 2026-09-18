@@ -1,0 +1,38 @@
+{
+  "table_id": "TBL-BRE-003",
+  "title": "Approximate free-water contents required to give various levels of workability",
+  "source": "SRC-BRE-001",
+  "source_document": "BRE BR 331, Second Edition, 1997",
+  "verification_status": "CROSS-VERIFIED",
+  "units": {
+    "water_content": "kg/m³",
+    "slump": "mm",
+    "vebe": "seconds",
+    "aggregate_size": "mm"
+  },
+  "slump_ranges": [
+    {"slump_min": 0,  "slump_max": 10,  "vebe_min": 12, "vebe_max": null, "workability": "Very low"},
+    {"slump_min": 10, "slump_max": 30,  "vebe_min": 6,  "vebe_max": 12,   "workability": "Low"},
+    {"slump_min": 30, "slump_max": 60,  "vebe_min": 3,  "vebe_max": 6,    "workability": "Medium"},
+    {"slump_min": 60, "slump_max": 180, "vebe_min": 0,  "vebe_max": 3,    "workability": "High"}
+  ],
+  "data": [
+    {"max_agg_size": 10, "agg_type": "Uncrushed", "slump_0_10": 150, "slump_10_30": 180, "slump_30_60": 205, "slump_60_180": 225},
+    {"max_agg_size": 10, "agg_type": "Crushed",   "slump_0_10": 180, "slump_10_30": 205, "slump_30_60": 230, "slump_60_180": 250},
+    {"max_agg_size": 20, "agg_type": "Uncrushed", "slump_0_10": 135, "slump_10_30": 160, "slump_30_60": 180, "slump_60_180": 195},
+    {"max_agg_size": 20, "agg_type": "Crushed",   "slump_0_10": 170, "slump_10_30": 190, "slump_30_60": 210, "slump_60_180": 225},
+    {"max_agg_size": 40, "agg_type": "Uncrushed", "slump_0_10": 115, "slump_10_30": 140, "slump_30_60": 160, "slump_60_180": 175},
+    {"max_agg_size": 40, "agg_type": "Crushed",   "slump_0_10": 155, "slump_10_30": 175, "slump_30_60": 190, "slump_60_180": 205}
+  ],
+  "interpolation": {
+    "within_slump_range": "NOT applicable — each slump range maps to a single value",
+    "between_aggregate_sizes": "NOT recommended — use the nearest documented size",
+    "between_aggregate_types": "Use weighted average for mixed types: W = (2/3 × W_fine_type) + (1/3 × W_coarse_type)"
+  },
+  "valid_ranges": {
+    "max_agg_size": [10, 20, 40],
+    "agg_type": ["Crushed", "Uncrushed"],
+    "slump": [0, 180]
+  },
+  "notes": "Free water content values. If fine and coarse aggregate types differ, use weighted average. Slump range boundaries are inclusive."
+}

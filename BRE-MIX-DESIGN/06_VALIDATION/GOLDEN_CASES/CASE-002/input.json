@@ -1,0 +1,66 @@
+{
+  "case_id": "BRE-GOLDEN-002",
+  "case_name": "Higher strength C40 mix — 20mm crushed aggregate",
+  "description": "Higher strength mix design for C40 concrete using class 42.5 cement and crushed 20mm aggregate",
+  "source": {
+    "document": "BRE BR 331",
+    "edition": "Second Edition, 1997",
+    "source_id": "SRC-BRE-001",
+    "page": "Derived from BRE method steps / cross-verified from Tier 2/3 sources",
+    "verification_status": "CROSS-VERIFIED"
+  },
+  "inputs": {
+    "characteristic_strength_Nmm2": 40,
+    "age_days": 28,
+    "cement_class": "42.5",
+    "coarse_aggregate_type": "Crushed",
+    "fine_aggregate_type": "Crushed",
+    "slump_mm": 50,
+    "max_aggregate_size_mm": 20,
+    "relative_density_SSD": 2.7,
+    "pct_passing_600um": 40,
+    "proportion_defective_pct": 5,
+    "k_factor": 1.64,
+    "standard_deviation_Nmm2": 5,
+    "max_wc_ratio": 0.55,
+    "min_cement_content_kgm3": 300,
+    "max_cement_content_kgm3": null
+  },
+  "expected_intermediate": {
+    "margin_Nmm2": 8.2,
+    "target_mean_strength_Nmm2": 48.2,
+    "reference_strength_wc05_Nmm2": 49,
+    "note_wc_ratio": "f_m = 48.2 < f_ref = 49 at w/c 0.5, so w/c ≈ 0.51",
+    "wc_ratio": 0.50,
+    "note_wc_governs": "w/c ≈ 0.51 from strength, max_wc = 0.55, strength governs. Use 0.50 (rounded down for conservatism).",
+    "free_water_content_kgm3": 210,
+    "cement_content_kgm3": 420,
+    "estimated_wet_density_kgm3": 2430,
+    "total_aggregate_kgm3": 1800,
+    "fine_aggregate_proportion_pct": 33,
+    "note_fine_agg": "Approximate value from Figure 6 for 20mm, slump 30-60, w/c 0.50, 40% passing 600um"
+  },
+  "expected_output": {
+    "water_kgm3": 210,
+    "cement_kgm3": 420,
+    "fine_aggregate_kgm3": 594,
+    "coarse_aggregate_kgm3": 1206,
+    "total_kgm3": 2430
+  },
+  "tolerance": {
+    "strength_Nmm2": 0.5,
+    "wc_ratio": 0.02,
+    "water_kgm3": 5,
+    "cement_kgm3": 15,
+    "aggregate_kgm3": 30,
+    "note": "Wider tolerances due to digitization uncertainty. Crushed aggregate and higher strength introduce more sensitivity."
+  },
+  "notes": [
+    "Slump 50mm falls in the 30-60 range in Table 3. Crushed 20mm aggregate gives 210 kg/m3.",
+    "f_m = 48.2 vs f_ref = 49 at w/c 0.5 — target is very close to reference, so w/c ≈ 0.50.",
+    "Durability limit (w/c_max = 0.55) does not govern in this case.",
+    "Min cement of 300 does not govern (calculated = 420).",
+    "Wet density higher due to higher RD_agg (2.7 vs 2.6).",
+    "This is a constructed validation case, not a verbatim BRE worked example."
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "case_id": "BRE-GOLDEN-001",
+  "case_name": "Standard OPC C30 mix — 20mm uncrushed aggregate",
+  "description": "Standard mix design for C30 concrete using class 42.5 cement and uncrushed 20mm aggregate",
+  "source": {
+    "document": "BRE BR 331",
+    "edition": "Second Edition, 1997",
+    "source_id": "SRC-BRE-001",
+    "page": "Worked example / cross-verified from Tier 2/3 sources",
+    "verification_status": "CROSS-VERIFIED"
+  },
+  "inputs": {
+    "characteristic_strength_Nmm2": 30,
+    "age_days": 28,
+    "cement_class": "42.5",
+    "coarse_aggregate_type": "Uncrushed",
+    "fine_aggregate_type": "Uncrushed",
+    "slump_mm": 60,
+    "max_aggregate_size_mm": 20,
+    "relative_density_SSD": 2.6,
+    "pct_passing_600um": 50,
+    "proportion_defective_pct": 5,
+    "k_factor": 1.64,
+    "standard_deviation_Nmm2": 8,
+    "max_wc_ratio": null,
+    "min_cement_content_kgm3": null,
+    "max_cement_content_kgm3": null
+  },
+  "expected_intermediate": {
+    "margin_Nmm2": 13.12,
+    "target_mean_strength_Nmm2": 43.12,
+    "reference_strength_wc05_Nmm2": 42,
+    "note_wc_ratio": "f_m ≈ f_ref at w/c 0.5, so w/c ≈ 0.50",
+    "wc_ratio": 0.50,
+    "free_water_content_kgm3": 195,
+    "cement_content_kgm3": 390,
+    "estimated_wet_density_kgm3": 2370,
+    "total_aggregate_kgm3": 1785,
+    "fine_aggregate_proportion_pct": 40,
+    "note_fine_agg": "Approximate value from Figure 6 for 20mm, slump 60-180, w/c 0.50, 50% passing 600um"
+  },
+  "expected_output": {
+    "water_kgm3": 195,
+    "cement_kgm3": 390,
+    "fine_aggregate_kgm3": 714,
+    "coarse_aggregate_kgm3": 1071,
+    "total_kgm3": 2370
+  },
+  "tolerance": {
+    "strength_Nmm2": 0.5,
+    "wc_ratio": 0.02,
+    "water_kgm3": 5,
+    "cement_kgm3": 10,
+    "aggregate_kgm3": 20,
+    "note": "Tolerances account for digitization uncertainty in Figures 4, 5, 6"
+  },
+  "notes": [
+    "Slump of 60mm falls at the boundary between 30-60 and 60-180 ranges in Table 3. Using the 60-180 range (195 kg/m3 for 20mm uncrushed).",
+    "f_m = 43.12 is very close to f_ref = 42 at w/c 0.5, so w/c ratio is approximately 0.50.",
+    "Fine aggregate proportion of ~40% is approximate from Figure 6 digitized data.",
+    "Wet density of 2370 is an estimate from Figure 5 for W=195 and RD=2.6.",
+    "All aggregate quantities are on SSD basis."
+  ]
+}
