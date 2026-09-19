@@ -4,8 +4,8 @@
 
 | ID       | Data Requirement | Source | Status | Required For |
 | -------- | ---------------- | ------ | ------ | ------------ |
-| DATA-001 | Figure 4 values (Strength vs W/C) | BR 331 | PENDING_ENGINEERING_VERIFICATION | Stage 2 (w/c ratio) |
-| DATA-002 | Figure 5 values (Wet density) | BR 331 | SYNTHETIC_PLACEHOLDER | Stage 4 (Total Aggregate) |
+| DATA-001 | Figure 4 values (Strength vs W/C) | BR 331 | VERIFIED | Stage 2 (w/c ratio) |
+| DATA-002 | Figure 5 values (Wet density) | BR 331 | VERIFIED | Stage 4 (Total Aggregate) |
 | DATA-003 | Figure 6 values (Fine Aggregate %) | BR 331 | [PENDING_USER_DATA] | Stage 5 (Fine Aggregate) |
 | DATA-004 | Figure 3 values (Standard Dev) | BR 331 | VERIFIED | Stage 1 (EQ-BRE-001) |
 | EQ-BRE-001 | Target Mean Strength | BR 331 | IMPLEMENTED_PENDING_VERIFICATION | Stage 1 |

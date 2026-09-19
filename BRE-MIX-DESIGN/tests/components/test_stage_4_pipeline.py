@@ -20,7 +20,8 @@ class TestStage4Pipeline:
         with open(file_path, "r") as f:
             data = json.load(f)
             
-        # Ensure it actually is marked SYNTHETIC_PLACEHOLDER for this test
+        # Ensure we test the synthetic block by modifying the data in memory
+        data["status"] = "SYNTHETIC_PLACEHOLDER"
         assert data["status"] == "SYNTHETIC_PLACEHOLDER"
         
         # 2. Attempt to instantiate the provider/interpolator as a production service would

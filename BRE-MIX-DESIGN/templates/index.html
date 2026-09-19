@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BRE Concrete Mix Design</title>
+    <meta name="description" content="BRE 331 Concrete Mix Design Calculator — a fully traceable normal concrete mix design tool.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <div class="app-container">
+        <!-- Header -->
+        <header class="header">
+            <div class="header-inner">
+                <div class="logo">
+                    <div class="logo-icon">
+                        <svg width="28" height="28" viewBox="0 0 28 28" fill="none">
+                            <rect x="2" y="2" width="24" height="24" rx="4" stroke="currentColor" stroke-width="2.5"/>
+                            <line x1="8" y1="20" x2="8" y2="10" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/>
+                            <line x1="14" y1="20" x2="14" y2="6" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/>
+                            <line x1="20" y1="20" x2="20" y2="14" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/>
+                        </svg>
+                    </div>
+                    <div>
+                        <h1>BRE Mix Design</h1>
+                        <span class="subtitle">BR 331 Normal Concrete</span>
+                    </div>
+                </div>
+                <div class="header-badge">MVP v1.0</div>
+            </div>
+        </header>
+
+        <!-- Main Content -->
+        <main class="main">
+            <!-- Input Panel -->
+            <section class="panel input-panel" id="inputPanel">
+                <div class="panel-header">
+                    <h2>Mix Design Inputs</h2>
+                    <p class="panel-desc">Enter the design parameters for your concrete mix.</p>
+                </div>
+
+                <form id="mixForm" class="form-grid">
+                    <!-- Concrete Requirements -->
+                    <div class="form-section">
+                        <h3 class="section-title">
+                            <span class="section-dot"></span>
+                            Concrete Requirements
+                        </h3>
+                        <div class="field-group">
+                            <div class="field">
+                                <label for="characteristic_strength">Characteristic Strength</label>
+                                <div class="input-wrap">
+                                    <input type="number" id="characteristic_strength" name="characteristic_strength" value="30" min="1" step="1" required>
+                                    <span class="unit">N/mm²</span>
+                                </div>
+                            </div>
+                            <div class="field">
+                                <label for="standard_deviation">Standard Deviation</label>
+                                <div class="input-wrap">
+                                    <input type="number" id="standard_deviation" name="standard_deviation" value="8" min="1" step="0.5">
+                                    <span class="unit">N/mm²</span>
+                                </div>
+                            </div>
+                            <div class="field">
+                                <label for="proportion_defective">Proportion Defective</label>
+                                <div class="input-wrap">
+                                    <select id="proportion_defective" name="proportion_defective">
+                                        <option value="1">1%</option>
+                                        <option value="2">2%</option>
+                                        <option value="3">3%</option>
+                                        <option value="5" selected>5%</option>
+                                        <option value="10">10%</option>
+                                        <option value="15">15%</option>
+                                        <option value="20">20%</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="field">
+                                <label for="slump_class">Slump / Workability</label>
+                                <div class="input-wrap">
+                                    <select id="slump_class" name="slump_class">
+                                        <option value="Slump_10_30" selected>10–30 mm</option>
+                                        <option value="Slump_30_60">30–60 mm</option>
+                                        <option value="Slump_60_180">60–180 mm</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Cement Properties -->
+                    <div class="form-section">
+                        <h3 class="section-title">
+                            <span class="section-dot"></span>
+                            Cement
+                        </h3>
+                        <div class="field-group">
+                            <div class="field">
+                                <label for="cement_strength_class">Cement Strength Class</label>
+                                <div class="input-wrap">
+                                    <select id="cement_strength_class" name="cement_strength_class">
+                                        <option value="32.5">32.5</option>
+                                        <option value="42.5" selected>42.5</option>
+                                        <option value="52.5">52.5</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Aggregate Properties -->
+                    <div class="form-section">
+                        <h3 class="section-title">
+                            <span class="section-dot"></span>
+                            Aggregates
+                        </h3>
+                        <div class="field-group">
+                            <div class="field">
+                                <label for="max_aggregate_size">Maximum Aggregate Size</label>
+                                <div class="input-wrap">
+                                    <select id="max_aggregate_size" name="max_aggregate_size">
+                                        <option value="10">10 mm</option>
+                                        <option value="20" selected>20 mm</option>
+                                        <option value="40">40 mm</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="field">
+                                <label for="aggregate_type">Aggregate Type</label>
+                                <div class="input-wrap">
+                                    <select id="aggregate_type" name="aggregate_type">
+                                        <option value="Uncrushed" selected>Uncrushed (Gravel)</option>
+                                        <option value="Crushed">Crushed</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="field">
+                                <label for="relative_density">Relative Density (SSD)</label>
+                                <div class="input-wrap">
+                                    <input type="number" id="relative_density" name="relative_density" value="2.6" min="2.4" max="2.9" step="0.1">
+                                </div>
+                            </div>
+                            <div class="field">
+                                <label for="fine_aggregate_proportion">Fine Aggregate Proportion</label>
+                                <div class="input-wrap">
+                                    <input type="number" id="fine_aggregate_proportion" name="fine_aggregate_proportion" value="27" min="1" max="100" step="1">
+                                    <span class="unit">%</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Optional Constraints -->
+                    <div class="form-section">
+                        <h3 class="section-title">
+                            <span class="section-dot" style="background: var(--warning)"></span>
+                            Constraints <span class="optional-tag">Optional</span>
+                        </h3>
+                        <div class="field-group">
+                            <div class="field">
+                                <label for="max_wc_ratio">Maximum W/C Ratio</label>
+                                <div class="input-wrap">
+                                    <input type="number" id="max_wc_ratio" name="max_wc_ratio" placeholder="e.g. 0.55" min="0.1" max="1.0" step="0.01">
+                                </div>
+                            </div>
+                            <div class="field">
+                                <label for="min_cement_content">Minimum Cement Content</label>
+                                <div class="input-wrap">
+                                    <input type="number" id="min_cement_content" name="min_cement_content" placeholder="e.g. 300" min="100" step="5">
+                                    <span class="unit">kg/m³</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <button type="submit" class="btn-calculate" id="btnCalculate">
+                        <span class="btn-text">Calculate Mix Design</span>
+                        <span class="btn-loader" id="btnLoader"></span>
+                    </button>
+                </form>
+            </section>
+
+            <!-- Results Panel -->
+            <section class="panel results-panel hidden" id="resultsPanel">
+                <div class="panel-header">
+                    <h2>Mix Design Result</h2>
+                    <button class="btn-back" onclick="showInput()">← Back to Inputs</button>
+                </div>
+
+                <div class="results-grid" id="resultsGrid">
+                    <!-- Populated by JS -->
+                </div>
+
+                <!-- Trace Section -->
+                <div class="trace-section" id="traceSection">
+                    <button class="trace-toggle" onclick="toggleTrace()">
+                        <span>View Calculation Trace</span>
+                        <svg class="chevron" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                            <path d="M6 8L10 12L14 8" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                        </svg>
+                    </button>
+                    <div class="trace-content hidden" id="traceContent">
+                        <!-- Populated by JS -->
+                    </div>
+                </div>
+            </section>
+
+            <!-- Error Panel -->
+            <div class="error-toast hidden" id="errorToast">
+                <div class="error-icon">⚠</div>
+                <div class="error-msg" id="errorMsg"></div>
+                <button class="error-close" onclick="hideError()">×</button>
+            </div>
+        </main>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <div class="footer-inner">
+                <div class="scope-section">
+                    <h4>Current MVP Scope</h4>
+                    <div class="scope-grid">
+                        <div class="scope-col">
+                            <h5>Supported</h5>
+                            <ul>
+                                <li class="supported">Normal concrete</li>
+                                <li class="supported">BRE 331 mix design procedure</li>
+                                <li class="supported">Target mean strength</li>
+                                <li class="supported">W/C selection</li>
+                                <li class="supported">Cement content</li>
+                                <li class="supported">Wet density</li>
+                                <li class="supported">Aggregate calculation</li>
+                                <li class="supported">BR 331 Example validation</li>
+                                <li class="supported">Calculation traceability</li>
+                            </ul>
+                        </div>
+                        <div class="scope-col">
+                            <h5>Coming Later</h5>
+                            <ul>
+                                <li class="pending">Air-entrained concrete</li>
+                                <li class="pending">Advanced trial-mix optimisation</li>
+                                <li class="pending">Additional material corrections</li>
+                                <li class="pending">Extended aggregate conditions</li>
+                                <li class="pending">Automated laboratory feedback</li>
+                                <li class="pending">Full production reporting</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <p class="copyright">BRE Mix Design Engine &bull; Based on BR 331 &bull; All calculations fully traceable</p>
+            </div>
+        </footer>
+    </div>
+
+    <script src="/static/app.js"></script>
+</body>
+</html>

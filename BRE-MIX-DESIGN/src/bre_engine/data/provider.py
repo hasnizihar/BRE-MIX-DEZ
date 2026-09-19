@@ -49,7 +49,7 @@ class EngineeringDataProvider(ABC):
         pass
         
     @abstractmethod
-    def get_figure_5_data(self) -> dict:
+    def get_figure_5_data(self) -> list:
         """Fetch discrete interpolation curves for Figure 5."""
         pass
         

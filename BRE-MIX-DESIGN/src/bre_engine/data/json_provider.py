@@ -51,8 +51,16 @@ class JsonEngineeringDataProvider(EngineeringDataProvider):
             )
         return data["curves"]
         
-    def get_figure_5_data(self) -> dict:
-        raise NotImplementedError()
+    def get_figure_5_data(self) -> list:
+        data = self._load_json(os.path.join("GRAPHS", "FIGURE_05", "figure_05_points.json"))
+        if data.get("status") != "VERIFIED":
+            raise EngineeringDataUnavailableError(
+                data_id="DATA-002 (Figure 5)",
+                source="BR 331",
+                calculation="Determine Wet Density",
+                message="Figure 5 numerical dataset is strictly pending engineering verification."
+            )
+        return data["curves"]
         
     def get_figure_6_data(self) -> dict:
         raise NotImplementedError()

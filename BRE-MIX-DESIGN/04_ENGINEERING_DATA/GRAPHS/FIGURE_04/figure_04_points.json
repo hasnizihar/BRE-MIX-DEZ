@@ -4,32 +4,315 @@
   "x_axis": {
     "label": "Free-water/cement ratio",
     "unit": "ratio",
-    "domain": [0.3, 0.9]
+    "domain": [
+      0.3,
+      0.9
+    ]
   },
   "y_axis": {
     "label": "Target mean compressive strength",
     "unit": "N/mm2",
-    "domain": [0.0, 90.0]
+    "domain": [
+      0.0,
+      90.0
+    ]
   },
   "curves": [
     {
-      "datum_strength_at_05": 40.0,
+      "datum_strength_at_05": 70.0,
       "points": [
-        {"water_cement_ratio": 0.3, "strength": 59.0},
-        {"water_cement_ratio": 0.4, "strength": 51.0},
-        {"water_cement_ratio": 0.5, "strength": 40.0},
-        {"water_cement_ratio": 0.6, "strength": 30.5},
-        {"water_cement_ratio": 0.7, "strength": 23.5}
+        {
+          "water_cement_ratio": 0.3,
+          "strength": 89.5
+        },
+        {
+          "water_cement_ratio": 0.4,
+          "strength": 81.5
+        },
+        {
+          "water_cement_ratio": 0.5,
+          "strength": 70.0
+        },
+        {
+          "water_cement_ratio": 0.6,
+          "strength": 58.8
+        },
+        {
+          "water_cement_ratio": 0.7,
+          "strength": 48.8
+        },
+        {
+          "water_cement_ratio": 0.8,
+          "strength": 39.0
+        },
+        {
+          "water_cement_ratio": 0.9,
+          "strength": 31.5
+        }
+      ]
+    },
+    {
+      "datum_strength_at_05": 60.0,
+      "points": [
+        {
+          "water_cement_ratio": 0.3,
+          "strength": 80.0
+        },
+        {
+          "water_cement_ratio": 0.4,
+          "strength": 70.0
+        },
+        {
+          "water_cement_ratio": 0.5,
+          "strength": 60.0
+        },
+        {
+          "water_cement_ratio": 0.6,
+          "strength": 50.5
+        },
+        {
+          "water_cement_ratio": 0.7,
+          "strength": 41.2
+        },
+        {
+          "water_cement_ratio": 0.8,
+          "strength": 33.0
+        },
+        {
+          "water_cement_ratio": 0.9,
+          "strength": 26.5
+        }
       ]
     },
     {
       "datum_strength_at_05": 50.0,
       "points": [
-        {"water_cement_ratio": 0.3, "strength": 70.0},
-        {"water_cement_ratio": 0.4, "strength": 62.0},
-        {"water_cement_ratio": 0.5, "strength": 50.0},
-        {"water_cement_ratio": 0.6, "strength": 39.0},
-        {"water_cement_ratio": 0.7, "strength": 30.0}
+        {
+          "water_cement_ratio": 0.3,
+          "strength": 70.0
+        },
+        {
+          "water_cement_ratio": 0.4,
+          "strength": 60.0
+        },
+        {
+          "water_cement_ratio": 0.5,
+          "strength": 50.0
+        },
+        {
+          "water_cement_ratio": 0.6,
+          "strength": 41.5
+        },
+        {
+          "water_cement_ratio": 0.7,
+          "strength": 33.5
+        },
+        {
+          "water_cement_ratio": 0.8,
+          "strength": 26.5
+        },
+        {
+          "water_cement_ratio": 0.9,
+          "strength": 21.0
+        }
+      ]
+    },
+    {
+      "datum_strength_at_05": 40.0,
+      "points": [
+        {
+          "water_cement_ratio": 0.3,
+          "strength": 60.0
+        },
+        {
+          "water_cement_ratio": 0.4,
+          "strength": 50.0
+        },
+        {
+          "water_cement_ratio": 0.5,
+          "strength": 40.0
+        },
+        {
+          "water_cement_ratio": 0.6,
+          "strength": 32.0
+        },
+        {
+          "water_cement_ratio": 0.7,
+          "strength": 25.5
+        },
+        {
+          "water_cement_ratio": 0.8,
+          "strength": 20.0
+        },
+        {
+          "water_cement_ratio": 0.9,
+          "strength": 15.5
+        }
+      ]
+    },
+    {
+      "datum_strength_at_05": 30.0,
+      "points": [
+        {
+          "water_cement_ratio": 0.3,
+          "strength": 47.5
+        },
+        {
+          "water_cement_ratio": 0.4,
+          "strength": 39.0
+        },
+        {
+          "water_cement_ratio": 0.5,
+          "strength": 30.0
+        },
+        {
+          "water_cement_ratio": 0.6,
+          "strength": 23.0
+        },
+        {
+          "water_cement_ratio": 0.7,
+          "strength": 17.5
+        },
+        {
+          "water_cement_ratio": 0.8,
+          "strength": 13.5
+        },
+        {
+          "water_cement_ratio": 0.9,
+          "strength": 10.5
+        }
+      ]
+    },
+    {
+      "datum_strength_at_05": 20.0,
+      "points": [
+        {
+          "water_cement_ratio": 0.3,
+          "strength": 36.5
+        },
+        {
+          "water_cement_ratio": 0.4,
+          "strength": 28.5
+        },
+        {
+          "water_cement_ratio": 0.5,
+          "strength": 20.0
+        },
+        {
+          "water_cement_ratio": 0.6,
+          "strength": 14.8
+        },
+        {
+          "water_cement_ratio": 0.7,
+          "strength": 11.0
+        },
+        {
+          "water_cement_ratio": 0.8,
+          "strength": 8.0
+        },
+        {
+          "water_cement_ratio": 0.9,
+          "strength": 6.0
+        }
+      ]
+    },
+    {
+      "datum_strength_at_05": 13.0,
+      "points": [
+        {
+          "water_cement_ratio": 0.3,
+          "strength": 26.5
+        },
+        {
+          "water_cement_ratio": 0.4,
+          "strength": 19.5
+        },
+        {
+          "water_cement_ratio": 0.5,
+          "strength": 13.0
+        },
+        {
+          "water_cement_ratio": 0.6,
+          "strength": 8.8
+        },
+        {
+          "water_cement_ratio": 0.7,
+          "strength": 6.2
+        },
+        {
+          "water_cement_ratio": 0.8,
+          "strength": 4.2
+        },
+        {
+          "water_cement_ratio": 0.9,
+          "strength": 3.0
+        }
+      ]
+    },
+    {
+      "datum_strength_at_05": 7.0,
+      "points": [
+        {
+          "water_cement_ratio": 0.3,
+          "strength": 17.5
+        },
+        {
+          "water_cement_ratio": 0.4,
+          "strength": 11.5
+        },
+        {
+          "water_cement_ratio": 0.5,
+          "strength": 7.0
+        },
+        {
+          "water_cement_ratio": 0.6,
+          "strength": 4.5
+        },
+        {
+          "water_cement_ratio": 0.7,
+          "strength": 3.0
+        },
+        {
+          "water_cement_ratio": 0.8,
+          "strength": 2.0
+        },
+        {
+          "water_cement_ratio": 0.9,
+          "strength": 1.2
+        }
+      ]
+    },
+    {
+      "datum_strength_at_05": 3.0,
+      "points": [
+        {
+          "water_cement_ratio": 0.3,
+          "strength": 10.0
+        },
+        {
+          "water_cement_ratio": 0.4,
+          "strength": 5.5
+        },
+        {
+          "water_cement_ratio": 0.5,
+          "strength": 3.0
+        },
+        {
+          "water_cement_ratio": 0.6,
+          "strength": 1.8
+        },
+        {
+          "water_cement_ratio": 0.7,
+          "strength": 1.0
+        },
+        {
+          "water_cement_ratio": 0.8,
+          "strength": 0.6
+        },
+        {
+          "water_cement_ratio": 0.9,
+          "strength": 0.4
+        }
       ]
     }
   ]
