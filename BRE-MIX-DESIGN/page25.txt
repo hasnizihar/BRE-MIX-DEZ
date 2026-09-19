@@ -1,0 +1,192 @@
+7 Examples of mix design
+21
+Table 4 Completed concrete mix design form for unrestricted design
+Reference
+Stage Item
+or calculation
+Values
+1
+1.1
+Characteristic strength
+Speciﬁed
+………………………………………XN/mm2 atX
+……………………XdaysX
+
+Proportion defectiveX
+………………………………………………………X%X
+1.2
+Standard deviation
+Fig 3
+………………………………………XN/mm2 or no dataX …………XN/mm2X
+1.3
+Margin
+C1
+(kX=X……………X)X ………………X×X……………X=X …………XN/mm2X
+or 
+Speciﬁed
+X=X …………XN/mm2X
+1.4
+Target mean strength
+C2
+XX
+………………X+X……………X=X …………XN/mm2X
+1.5
+Cement strength class
+Speciﬁed
+42.5/52.5
+1.6
+Aggregate type: coarse
+Crushed/uncrushed
+Aggregate type: ﬁne
+Crushed/uncrushed
+1.7
+Free-water/cement ratio
+Table 2, Fig 4
+………………………………………X
+………………………………………Use the lower value
+1.8
+Maximum free-water/
+Speciﬁed
+………………………………………
+cement ratio
+2
+2.1
+Slump or Vebe time
+Speciﬁed
+SlumpX ………………………………Xmm or Vebe timeX …………………XsX
+2.2
+Maximum aggregate size
+Speciﬁed
+………………XmmX
+2.3
+Free-water content
+Table 3
+……………………………………………………………
+kg/m3X
+3
+3.1
+Cement content
+C3
+………………… X÷X ………………………………X= ……………Xkg/m3X
+3.2
+Maximum cement content
+Speciﬁed
+…………………Xkg/m3
+3.3
+Minimum cement content
+Speciﬁed
+…………………Xkg/m3
+use 3.1 if ≤3.2
+use 3.3 if > 3.1
+kg/m3X
+3.4
+Modiﬁed free-water/cement ratio
+………………………………………………………………
+4
+4.1
+Relative density of
+………………………………………Xknown/assumed
+aggregate (SSD)
+4.2
+Concrete density
+Fig 5
+X)X=X …………Xkg/m3X
+4.3
+Total aggregate content
+C4
+………………… X–X …………… X–X ……………X)X=X …………Xkg/m3X
+5
+5.1
+Grading of ﬁne aggregate
+Percentage passing 600 µm sieveX
+………………………………………………………………X%X
+5.2
+Proportion of ﬁne aggregate
+Fig 6
+………………………………………………………………………………X%X
+5.3
+Fine aggregate content
+
+………………………… X×X………………………… X=X
+Xkg/m3X
+
+C5
+
+5.4
+Coarse aggregate content 
+………………………… X–X………………………… X=X
+Xkg/m3X
+Cement
+Water
+Fine aggregate
+Coarse aggregate (kg)
+Quantities
+(kg)
+(kg or litres)
+(kg)
+10 mm
+20 mm
+40 mm
+per m3 (to nearest 5 kg)
+…………………… ………………… ……………………… …………… …………… ……………
+per trial mix of …………………Xm3
+…………………… ………………… ……………………… …………… …………… ……………
+Items in italics are optional limiting values that may be speciﬁed (see Section 7).
+Concrete strength is expressed in the units N/mm2. 1 N/mm2 = 1 MN/ m2 = 1 MPa. (N = newton; Pa = pascal.)
+The internationally known term ‘relative density’ used here is synonymous with ‘speciﬁc gravity’ and is the ratio of the mass of a given volume of substance to the mass of an equal volume of water.
+SSD = based on the saturated surface-dry condition.
+0·47
+30
+30
+16
+28
+2·5
+2·6
+2400
+1900
+1900
+515
+0·05
+17·0
+340
+160
+515
+18·0
+25·7
+23
+460 925
+46·2
+0·27
+340
+160
+70
+25 to 30, say
+27
+1900
+0·47
+0·47
+160
+290
+340
+0·55
+10 – 30
+1·96
+1·96
+16
+46
+20
+2400
+⁄
+⁄
+⁄⁄
+⁄
+⁄
+⁄
+⁄⁄
+8
+8
+160
+340
+1385
+515
+⁄

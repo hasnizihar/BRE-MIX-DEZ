@@ -1,0 +1,172 @@
+corresponding value for the free-water/cement ratio can
+then be read from the abscissa. This should be compared
+with any maximum free-water/cement ratio that may be
+specified and the lower of these two values used.
+5.2 Selection of free-water content (Stage 2)
+Stage 2 consists simply of determining the free-water
+content from Table 3 depending upon the type and
+maximum size of the aggregate to give a concrete of the
+specified slump or Vebe time.
+5.3 Determination of cement content (Stage 3)
+The cement content is determined from calculation C3:
+Cement content = 
+free-water content
+…C3
+free-water/cement ratio
+The resulting value should be checked against any
+maximum or minimum value that may be specified. If the
+calculated cement content from C3 is below a specified
+minimum, this minimum value must be adopted and a
+modified free-water/cement ratio calculated which will
+be less than that determined in Stage 1. This will result in
+a concrete that has a mean strength somewhat higher
+than the target mean strength. Alternatively, the free-
+water/cement ratio from Stage 1 is used resulting in a
+higher free-water content and increased workability.
+On the other hand, if the design method indicates a
+cement content that is higher than a specified maximum
+then it is probable that the specification cannot be met
+simultaneously on strength and workability requirements
+with the selected materials. Consideration should then be
+given to changing the type or strength class, or both, of
+cement, the type and maximum size of aggregate or the
+level of workability of the concrete, or to the use of a
+water-reducing admixture.
+5.4 Determination of total aggregate content (Stage 4)
+Stage 4 requires an estimate of the density of the fully
+compacted concrete which is obtained from Figure 5
+depending upon the free-water content and the relative
+density* of the combined aggregate in the saturated
+surface-dry condition (SSD). If no information is
+available regarding the relative density of the aggregate,
+an approximation can be made by assuming a value of 2.6
+for uncrushed aggregate and 2.7 for crushed aggregate.
+From this estimated density of the concrete the total
+aggregate content is determined from calculation C4:
+Total aggregate content
+=
+D — C — W
+…C4 
+(saturated and surface-dry)
+where D = the wet density of concrete (kg/m3)
+C = the cement content (kg/m3)
+W = the free-water content (kg/m3)
+5.5 Selection of ﬁne and coarse aggregate contents 
+(Stage 5)
+Stage 5 involves deciding how much of the total
+aggregate should consist of materials smaller than 5 mm,
+ie the sand or fine aggregate content. Figure 6 shows
+recommended values for the proportion of fine aggregate
+depending on the maximum size of aggregate, the
+workability level, the grading of the fine aggregate
+(defined by its percentage passing a 600 µm sieve) and
+the free-water/cement ratio. The best proportion of fines
+to use in a given mix will depend on the shape of the
+particular aggregate, the actual grading of shape of the
+particular aggregate, the actual grading of the fine
+aggregate and the use to which the concrete is to be put.
+However, adoption of a proportion obtained from
+Figure 6 will generally give a satisfactory concrete in the
+first trial mix which can then be adjusted as required for
+the exact conditions prevailing.
+The final calculation, C5, to determine the fine and
+coarse aggregate contents, is made using the proportion
+of fine aggregate obtained from Figure 6 and the total
+aggregate content derived in Stage 4:
+5 Flow chart of procedures 
+13
+Table 3 Approximate free-water contents (kg/m3) required
+to give various levels of workability
+Slump (mm)
+0–10
+10–30 30–60 60–180
+Vebe time (s)
+>12
+6–12
+3–6
+0–3
+Maximum size 
+of aggregate 
+Type of
+(mm)
+aggregate
+10
+Uncrushed
+150
+180
+205
+225
+Crushed
+180
+205
+230
+250
+20
+Uncrushed
+135
+160
+180
+195
+Crushed
+170
+190
+210
+225
+40
+Uncrushed
+115
+140
+160
+175
+Crushed
+155
+175
+190
+205
+Note: When coarse and ﬁne aggregates of different types are used, the free-water
+content is estimated by the expression:
+2⁄3 Wf + 1⁄3 Wc
+where Wf = free-water content appropriate to type of ﬁne aggregate
+and
+Wc = free-water content approporiate to type of coarse aggregate.
+*The internationally known term ‘relative density’ used in this publication is synonymous with
+‘speciﬁc gravity’ and is the ratio of the mass of a given volume of substance to the mass of an
+equal volume of water.
+Table 2 Approximate compressive strengths (N/mm2) of 
+concrete mixes made with a free-water/cement ratio of 0.5
+Cement
+Type of
+Compressive strengths (N/mm2)
+strength
+coarse
+Age (days)
+class
+aggregate
+3
+7
+28
+91
+42.5
+Uncrushed
+22
+30
+42
+49
+Crushed
+27
+36
+49
+56
+52.5
+Uncrushed
+29
+37
+48
+54
+Crushed
+34
+43
+55
+61
+Throughout this publication concrete strength is expressed in the units N/mm2.
+1 N/mm2 = 1 MN/m2 = 1 MPa. (N = newton; Pa = pascal.)

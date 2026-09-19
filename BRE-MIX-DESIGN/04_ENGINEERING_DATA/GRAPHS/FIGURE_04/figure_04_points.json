@@ -1,0 +1,36 @@
+{
+  "dataset": "FIGURE_04",
+  "status": "VERIFIED",
+  "x_axis": {
+    "label": "Free-water/cement ratio",
+    "unit": "ratio",
+    "domain": [0.3, 0.9]
+  },
+  "y_axis": {
+    "label": "Target mean compressive strength",
+    "unit": "N/mm2",
+    "domain": [0.0, 90.0]
+  },
+  "curves": [
+    {
+      "datum_strength_at_05": 40.0,
+      "points": [
+        {"water_cement_ratio": 0.3, "strength": 59.0},
+        {"water_cement_ratio": 0.4, "strength": 51.0},
+        {"water_cement_ratio": 0.5, "strength": 40.0},
+        {"water_cement_ratio": 0.6, "strength": 30.5},
+        {"water_cement_ratio": 0.7, "strength": 23.5}
+      ]
+    },
+    {
+      "datum_strength_at_05": 50.0,
+      "points": [
+        {"water_cement_ratio": 0.3, "strength": 70.0},
+        {"water_cement_ratio": 0.4, "strength": 62.0},
+        {"water_cement_ratio": 0.5, "strength": 50.0},
+        {"water_cement_ratio": 0.6, "strength": 39.0},
+        {"water_cement_ratio": 0.7, "strength": 30.0}
+      ]
+    }
+  ]
+}

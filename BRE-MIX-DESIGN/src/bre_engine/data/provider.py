@@ -31,6 +31,34 @@ class EngineeringDataProvider(ABC):
         pass
         
     @abstractmethod
+    def get_figure_3_data(self) -> dict:
+        """
+        Retrieves the Figure 3 Standard Deviation boundaries (Line A and Line B).
+        
+        Returns:
+            dict containing 'line_a' and 'line_b' lists of coordinates.
+            
+        Raises:
+            EngineeringDataUnavailableError if data is not engineering verified.
+        """
+        pass
+        
+    @abstractmethod
+    def get_figure_4_data(self) -> list:
+        """Fetch mathematical family of curves for Figure 4."""
+        pass
+        
+    @abstractmethod
+    def get_figure_5_data(self) -> dict:
+        """Fetch discrete interpolation curves for Figure 5."""
+        pass
+        
+    @abstractmethod
+    def get_figure_6_data(self) -> dict:
+        """Fetch multi-dimensional interpolation curves for Figure 6."""
+        pass
+        
+    @abstractmethod
     def get_standard_deviation(self, condition: str) -> float:
         """
         Retrieve standard deviation guidance (STD-BRE-001) based on production conditions.

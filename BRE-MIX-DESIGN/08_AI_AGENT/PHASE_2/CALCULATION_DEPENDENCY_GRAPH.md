@@ -10,8 +10,9 @@ graph TD
     DATA004(DATA-004: STD-BRE-001) -.-> EQ002
     
     %% Stage 2
-    EQ001 --> DATA001(DATA-001: Figure 4)
-    DATA001 -.-> WCR[W/C Ratio]
+    EQ001 --> LKP001[LKP-BRE-001: Figure 4 Lookup]
+    DATA001(DATA-001: Figure 4) -.-> LKP001
+    LKP001 --> WCR[W/C Ratio]
     
     %% Stage 3
     TBL003(TBL-BRE-003: Free Water) -.-> W[Water Content]

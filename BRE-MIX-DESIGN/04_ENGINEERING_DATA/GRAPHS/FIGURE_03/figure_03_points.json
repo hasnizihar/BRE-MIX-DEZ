@@ -1,0 +1,19 @@
+{
+  "figure": "Figure 3 Relationship between standard deviation and characteristic strength",
+  "status": "VERIFIED",
+  "source": {
+    "document": "BR 331",
+    "printed_page": "8",
+    "pdf_page": "13"
+  },
+  "line_a": [
+    {"x": 0.0, "y": 4.0},
+    {"x": 20.0, "y": 8.0},
+    {"x": 100.0, "y": 8.0}
+  ],
+  "line_b": [
+    {"x": 0.0, "y": 2.0},
+    {"x": 20.0, "y": 4.0},
+    {"x": 100.0, "y": 4.0}
+  ]
+}

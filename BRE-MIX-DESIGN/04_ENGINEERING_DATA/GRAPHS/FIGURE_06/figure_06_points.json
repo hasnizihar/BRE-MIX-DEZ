@@ -1,0 +1,56 @@
+{
+  "figure_id": "FIGURE_06",
+  "status": "[PENDING_USER_DATA]",
+  "description": "Recommended proportions of fine aggregate",
+  "x_axis": "Free-water/cement ratio",
+  "y_axis": "Proportion of fine aggregate (%)",
+  "curve_parameter": "Percentage passing 600 μm sieve",
+  "selectors": [
+    "Maximum aggregate size (mm)",
+    "Slump (mm) range"
+  ],
+  "data": {
+    "10": {
+      "0-10": {
+        "curves": []
+      },
+      "10-30": {
+        "curves": []
+      },
+      "30-60": {
+        "curves": []
+      },
+      "60-180": {
+        "curves": []
+      }
+    },
+    "20": {
+      "0-10": {
+        "curves": []
+      },
+      "10-30": {
+        "curves": []
+      },
+      "30-60": {
+        "curves": []
+      },
+      "60-180": {
+        "curves": []
+      }
+    },
+    "40": {
+      "0-10": {
+        "curves": []
+      },
+      "10-30": {
+        "curves": []
+      },
+      "30-60": {
+        "curves": []
+      },
+      "60-180": {
+        "curves": []
+      }
+    }
+  }
+}

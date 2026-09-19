@@ -1,0 +1,82 @@
+{
+  "figure_id": "FIGURE_05",
+  "status": "SYNTHETIC_PLACEHOLDER",
+  "description": "Estimated wet density of fully compacted concrete",
+  "x_axis": "Free-water content (kg/m^3)",
+  "curve_parameter": "Relative density of combined aggregate (SSD)",
+  "y_axis": "Wet density of concrete (kg/m^3)",
+  "curves": [
+    {
+      "relative_density": 2.4,
+      "points": [
+        {"free_water": 120, "wet_density": 2364.0},
+        {"free_water": 140, "wet_density": 2332.0},
+        {"free_water": 160, "wet_density": 2300.0},
+        {"free_water": 180, "wet_density": 2268.0},
+        {"free_water": 200, "wet_density": 2236.0},
+        {"free_water": 220, "wet_density": 2204.0},
+        {"free_water": 240, "wet_density": 2172.0}
+      ]
+    },
+    {
+      "relative_density": 2.5,
+      "points": [
+        {"free_water": 120, "wet_density": 2414.0},
+        {"free_water": 140, "wet_density": 2382.0},
+        {"free_water": 160, "wet_density": 2350.0},
+        {"free_water": 180, "wet_density": 2318.0},
+        {"free_water": 200, "wet_density": 2286.0},
+        {"free_water": 220, "wet_density": 2254.0},
+        {"free_water": 240, "wet_density": 2222.0}
+      ]
+    },
+    {
+      "relative_density": 2.6,
+      "points": [
+        {"free_water": 120, "wet_density": 2464.0},
+        {"free_water": 140, "wet_density": 2432.0},
+        {"free_water": 160, "wet_density": 2400.0},
+        {"free_water": 180, "wet_density": 2368.0},
+        {"free_water": 200, "wet_density": 2336.0},
+        {"free_water": 220, "wet_density": 2304.0},
+        {"free_water": 240, "wet_density": 2272.0}
+      ]
+    },
+    {
+      "relative_density": 2.7,
+      "points": [
+        {"free_water": 120, "wet_density": 2514.0},
+        {"free_water": 140, "wet_density": 2482.0},
+        {"free_water": 160, "wet_density": 2450.0},
+        {"free_water": 180, "wet_density": 2418.0},
+        {"free_water": 200, "wet_density": 2386.0},
+        {"free_water": 220, "wet_density": 2354.0},
+        {"free_water": 240, "wet_density": 2322.0}
+      ]
+    },
+    {
+      "relative_density": 2.8,
+      "points": [
+        {"free_water": 120, "wet_density": 2564.0},
+        {"free_water": 140, "wet_density": 2532.0},
+        {"free_water": 160, "wet_density": 2500.0},
+        {"free_water": 180, "wet_density": 2468.0},
+        {"free_water": 200, "wet_density": 2436.0},
+        {"free_water": 220, "wet_density": 2404.0},
+        {"free_water": 240, "wet_density": 2372.0}
+      ]
+    },
+    {
+      "relative_density": 2.9,
+      "points": [
+        {"free_water": 120, "wet_density": 2614.0},
+        {"free_water": 140, "wet_density": 2582.0},
+        {"free_water": 160, "wet_density": 2550.0},
+        {"free_water": 180, "wet_density": 2518.0},
+        {"free_water": 200, "wet_density": 2486.0},
+        {"free_water": 220, "wet_density": 2454.0},
+        {"free_water": 240, "wet_density": 2422.0}
+      ]
+    }
+  ]
+}

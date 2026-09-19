@@ -24,3 +24,7 @@ class EngineeringDataUnavailableError(Exception):
 class InvalidEngineeringInputError(Exception):
     """Exception raised when user input violates the bounds of the engineering specification."""
     pass
+
+class EngineeringConstraintError(Exception):
+    """Exception raised when a calculated value violates a specified engineering constraint (e.g. maximum cement content) making the mix design physically impossible under current specifications."""
+    pass
